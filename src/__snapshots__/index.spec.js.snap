@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bodypaint defaults 1`] = `
+<div>
+  <div
+    class="css-sfor8c"
+    label="T0"
+  />
+  <div
+    class="css-1i6iv8a"
+    label="T1"
+  />
+  <div
+    class="css-196ajw1"
+    label="S0"
+  />
+  <div
+    class="css-k9whr1"
+    label="S1"
+  />
+  <div
+    class="css-8xdn84"
+    label="S2"
+  />
+  <div
+    class="css-11vp2my"
+    label="S3"
+  />
+  <div
+    class="css-30e0p1"
+    label="M0"
+  />
+  <div
+    class="css-1sqwafd"
+    label="M1"
+  />
+  <div
+    class="css-1w346d5"
+    label="M2"
+  />
+  <div
+    class="css-qoyg2t"
+    label="M3"
+  />
+  <div
+    class="css-1wlub34"
+    label="L0"
+  />
+  <div
+    class="css-1f56r07"
+    label="L1"
+  />
+  <div
+    class="css-1d1hquo"
+    label="L2"
+  />
+  <div
+    class="css-10tupu6"
+    label="L3"
+  />
+  <div
+    class="css-xnn2up"
+    label="V0"
+  />
+  <div
+    class="css-1k7ygie"
+    label="V1"
+  />
+  <div
+    class="css-jaif79"
+    label="V2"
+  />
+  <div
+    class="css-1l6cfxy"
+    label="V3"
+  />
+  <div
+    class="css-1h0gk0b"
+    label="V4"
+  />
+  <div
+    class="css-l5wj88"
+    label="V5"
+  />
+  <div
+    class="css-1ndo6wq"
+    label="V6"
+  />
+  <div
+    class="css-b8p2h0"
+    label="V7"
+  />
+  <div
+    class="css-cb66fn"
+    label="V8"
+  />
+</div>
+`;
+
+exports[`renderBreakpoints 1`] = `
+<div>
+  <div
+    class="css-1hh0wim"
+    label="one"
+  />
+  <div
+    class="css-147693u"
+    label="two"
+  />
+  <div
+    class="css-18ifk14"
+    label="three"
+  />
+</div>
+`;
+
+exports[`renderVerticalBreakpoints 1`] = `
+<div>
+  <div
+    class="css-1grl9bw"
+    label="one"
+  />
+  <div
+    class="css-1jt38gy"
+    label="two"
+  />
+  <div
+    class="css-1r5lcqa"
+    label="three"
+  />
+</div>
+`;
