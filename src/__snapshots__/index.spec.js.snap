@@ -114,6 +114,67 @@ exports[`renderBreakpoints 1`] = `
 </div>
 `;
 
+exports[`renderComponents 1`] = `
+<div>
+  {
+  "crap": 320,
+  "label": "T0"
+}
+  {
+  "crap": 480,
+  "label": "T1"
+}
+  {
+  "crap": 600,
+  "label": "S0"
+}
+  {
+  "crap": 736,
+  "label": "S1"
+}
+  {
+  "crap": 864,
+  "label": "S2"
+}
+  {
+  "crap": 900,
+  "label": "S3"
+}
+  {
+  "crap": 976,
+  "label": "M0"
+}
+  {
+  "crap": 1088,
+  "label": "M1"
+}
+  {
+  "crap": 1200,
+  "label": "M2"
+}
+  {
+  "crap": 1300,
+  "label": "M3"
+}
+  {
+  "crap": 1800,
+  "label": "L0"
+}
+  {
+  "crap": 2048,
+  "label": "L1"
+}
+  {
+  "crap": 2560,
+  "label": "L2"
+}
+  {
+  "crap": 4000,
+  "label": "L3"
+}
+</div>
+`;
+
 exports[`renderVerticalBreakpoints 1`] = `
 <div>
   <div
