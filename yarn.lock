@@ -2122,10 +2122,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bodypaint@0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/bodypaint/-/bodypaint-0.0.7.tgz#8f62e66724bfc6b9596caa3d23b7e82d21395681"
-  integrity sha512-UBMsPbvsu6u3RfVkB5eSeuIeDIeX5CtnV4oT0xwV5JYVSxfkx5dkMU/8iewvIz6xIz+uc9idGGbTgRSbLUF6lQ==
+bodypaint@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/bodypaint/-/bodypaint-0.0.9.tgz#b1b8f8039271b0389b3eea95a1c9db956beccb41"
+  integrity sha512-rY95zKyHVbxgXm8OV/NTHPuCLGIyAdAmXu0DKQaiCIKaPReka8O9VcpFnri05QRu5zkPV2KO4KMcbByiQCDscA==
   dependencies:
     facepaint "^1.2.1"
     ramda "^0.27.0"

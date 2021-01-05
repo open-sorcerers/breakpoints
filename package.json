@@ -1,6 +1,6 @@
 {
   "name": "@open-sorcerers/breakpoints",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publishConfig": {
     "access": "public"
   },
@@ -16,7 +16,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.27",
     "@emotion/styled": "^10.0.27",
-    "bodypaint": "0.0.7",
+    "bodypaint": "^0.0.9",
     "ramda": "^0.27.1",
     "react": "^16.12.0"
   },
