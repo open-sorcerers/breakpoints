@@ -1,12 +1,16 @@
 {
   "name": "@open-sorcerers/breakpoints",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publishConfig": {
     "access": "public"
   },
   "description": "breakpoints, the open-sorcerer way",
   "main": "breakpoints.js",
   "module": "breakpoints.mjs",
+  "files": [
+    "breakpoints.js",
+    "breakpoints.mjs"
+  ],
   "repository": "//github.com/open-sorcerers/open-sorcerers",
   "author": "open.sorcerers.dev",
   "license": "MIT",
