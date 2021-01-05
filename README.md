@@ -1,14 +1,18 @@
-i# @open-sorcerers/breakpoints
+# @open-sorcerers/breakpoints
 
-> Simple React Breakpoints
+## Simple React Breakpoints
 
 A simple way to add breakpoints to a page (for debugging porpoises). Pairs well with [bodypaint](//npmjs.com/package/bodypaint).
 
 ### Installation
 
-> yarn add @open-sorcerers/breakpoints -S
+```
+yarn add @open-sorcerers/breakpoints -S
+```
 or
-> npm i @open-sorcerers/breakpoints -S
+```
+npm i @open-sorcerers/breakpoints -S
+```
 
 ### Usage
 
