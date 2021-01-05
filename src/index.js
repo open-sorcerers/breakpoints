@@ -54,9 +54,8 @@ export const VBreakpoint = styled.div`
 
 Breakpoint.displayName = 'OpenSorcerersBreakpoint'
 
-const renderComponents = curry((vertical, kids) => {
+export const renderComponents = curry((Point, kids) => {
   function Breakpoints() {
-    const Point = vertical ? VBreakpoint : Breakpoint
     return (
       <>
         {map(
@@ -81,7 +80,7 @@ export const pointsToDirectionalAttributes = curry((dimension, ob) =>
 export const renderDirectionalBreakpoints = curry((vertical, x) =>
   pipe(
     pointsToDirectionalAttributes(vertical ? 'top' : 'left'),
-    renderComponents(vertical)
+    renderComponents(vertical ? VBreakpoint : Breakpoint)
   )(x)
 )
 
