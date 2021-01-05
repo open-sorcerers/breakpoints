@@ -1,15 +1,13 @@
 {
   "name": "@open-sorcerers/breakpoints",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publishConfig": {
     "access": "public"
   },
   "description": "breakpoints, the open-sorcerer way",
   "main": "breakpoints.js",
-  "module": "breakpoints.mjs",
   "files": [
-    "breakpoints.js",
-    "breakpoints.mjs"
+    "breakpoints.js"
   ],
   "repository": "//github.com/open-sorcerers/open-sorcerers",
   "author": "open.sorcerers.dev",
@@ -32,7 +30,7 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@rollup/plugin-babel": "^5.2.2",
-    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-json": "^4.0.2",
     "@rollup/plugin-node-resolve": "^7.1.1",
     "@testing-library/jest-dom": "^5.11.6",
@@ -56,7 +54,7 @@
     "prettier-eslint": "11.0.0",
     "react-dom": "^17.0.1",
     "react-test-renderer": "^17.0.1",
-    "rollup": "^1.31.0",
+    "rollup": ">2.0.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-progress": "^1.1.1",
     "xtrace": "^0.3.0"
