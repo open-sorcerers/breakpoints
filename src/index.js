@@ -77,7 +77,7 @@ export const pointsToDirectionalAttributes = curry((dimension, ob) =>
   )(ob)
 )
 
-export const renderCustomComponent = curry((direction, Point, x) =>
+export const renderCustomComponents = curry((direction, Point, x) =>
   pipe(
     pointsToDirectionalAttributes(direction),
     renderComponents(Point)
@@ -91,11 +91,11 @@ export const renderDirectionalBreakpoints = curry((vertical, x) =>
   )(x)
 )
 
-export const renderBreakpoints = renderCustomComponent(
+export const renderBreakpoints = renderCustomComponents(
   'left',
   Breakpoint
 )
-export const renderVerticalBreakpoints = renderCustomComponent(
+export const renderVerticalBreakpoints = renderCustomComponents(
   'top',
   VBreakpoint
 )
