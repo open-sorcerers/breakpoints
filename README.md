@@ -46,11 +46,11 @@ If you need to supplant your own components, it's easy:
 ```js
 import { pipe } from 'ramda'
 import { HORIZONTAL_BREAKPOINTS } from 'bodypaint'
-import { pointsToDirectionalAttributes, renderComponents } from '@open-sorcerers/breakpoints'
+import { renderCustomComponents } from '@open-sorcerers/breakpoints'
 
 const MyCustomBreakpoint = props => `${JSON.stringify(props, null, 2)}`
-const Breakpoints = pipe(
-  pointsToDirectionalAttributes('left'),
-  renderComponents(MyCustomBreakpoint)
-)(HORIZONTAL_BREAKPOINTS)
+// we specify "left" here as the directional attribute of the data
+// use "top" if you want to render vertical components instead
+const renderer = renderCustomComponents('left', MyCustomBreakpoint)
+const Breakpoints = renderer(HORIZONTAL_BREAKPOINTS)
 ```

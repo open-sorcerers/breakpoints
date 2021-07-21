@@ -175,6 +175,40 @@ exports[`renderComponents 1`] = `
 </div>
 `;
 
+exports[`renderDirectionalBreakpoints 1`] = `
+<div>
+  <div
+    class="css-1hh0wim"
+    label="one"
+  />
+  <div
+    class="css-147693u"
+    label="two"
+  />
+  <div
+    class="css-18ifk14"
+    label="three"
+  />
+</div>
+`;
+
+exports[`renderDirectionalBreakpoints 2`] = `
+<div>
+  <div
+    class="css-1grl9bw"
+    label="one"
+  />
+  <div
+    class="css-1jt38gy"
+    label="two"
+  />
+  <div
+    class="css-1r5lcqa"
+    label="three"
+  />
+</div>
+`;
+
 exports[`renderVerticalBreakpoints 1`] = `
 <div>
   <div
