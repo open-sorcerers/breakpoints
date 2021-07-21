@@ -11,7 +11,8 @@ import {
   renderBreakpoints,
   renderVerticalBreakpoints,
   renderComponents,
-  pointsToDirectionalAttributes
+  pointsToDirectionalAttributes,
+  renderDirectionalBreakpoints
 } from './index'
 
 test('renderBreakpoints', () => {
@@ -54,4 +55,21 @@ test('renderComponents', () => {
   )(HORIZONTAL_BREAKPOINTS)
   const { container } = render(<Breakpoints />)
   expect(container).toMatchSnapshot()
+})
+
+test('renderDirectionalBreakpoints', () => {
+  const Breakpoints = renderDirectionalBreakpoints(false, {
+    one: 100,
+    two: 200,
+    three: 300
+  })
+  const VBreakpoints = renderDirectionalBreakpoints(true, {
+    one: 100,
+    two: 200,
+    three: 300
+  })
+  const { container } = render(<Breakpoints />)
+  expect(container).toMatchSnapshot()
+  const { container: c2 } = render(<VBreakpoints />)
+  expect(c2).toMatchSnapshot()
 })

@@ -95,7 +95,7 @@ export const renderBreakpoints = renderCustomComponent(
   'left',
   Breakpoint
 )
-export const renderVericalBreakpoints = renderCustomComponent(
+export const renderVerticalBreakpoints = renderCustomComponent(
   'top',
   VBreakpoint
 )
