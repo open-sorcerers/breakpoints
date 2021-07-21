@@ -27,6 +27,7 @@ export const Breakpoint = styled.div`
     margin-top: 2rem;
   }
 `
+Breakpoint.displayName = 'OpenSorcerersBreakpoint'
 
 export const VBreakpoint = styled.div`
   position: fixed;
@@ -51,8 +52,7 @@ export const VBreakpoint = styled.div`
     left: 0;
   }
 `
-
-Breakpoint.displayName = 'OpenSorcerersBreakpoint'
+VBreakpoint.displayName = 'OpenSorcerersVBreakpoint'
 
 export const renderComponents = curry((Point, kids) => {
   function Breakpoints() {
@@ -77,6 +77,13 @@ export const pointsToDirectionalAttributes = curry((dimension, ob) =>
   )(ob)
 )
 
+export const renderCustomComponent = curry((direction, Point, x) =>
+  pipe(
+    pointsToDirectionalAttributes(direction),
+    renderComponents(Point)
+  )(x)
+)
+
 export const renderDirectionalBreakpoints = curry((vertical, x) =>
   pipe(
     pointsToDirectionalAttributes(vertical ? 'top' : 'left'),
@@ -84,7 +91,11 @@ export const renderDirectionalBreakpoints = curry((vertical, x) =>
   )(x)
 )
 
-export const renderBreakpoints = renderDirectionalBreakpoints(false)
-export const renderVerticalBreakpoints = renderDirectionalBreakpoints(
-  true
+export const renderBreakpoints = renderCustomComponent(
+  'left',
+  Breakpoint
+)
+export const renderVericalBreakpoints = renderCustomComponent(
+  'top',
+  VBreakpoint
 )
